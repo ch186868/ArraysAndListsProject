@@ -44,11 +44,20 @@ namespace ArraysAndLists
              *
              * Try to be creative in your display
              */
-        }   
+
             foreach (var num in evens)
             {
-                Console.WriteLine ($"{num} is an even number");
+                Console.WriteLine($"{num} is an even number");
             }
+
+            foreach (var num in odds)
+            {
+                Console.WriteLine($"{num} is an odd number");
+            }
+
+
+        }   
+             
 
     }
 }
